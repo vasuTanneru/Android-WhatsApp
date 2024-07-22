@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/calls_image_id"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:src="@drawable/new_profile_icon"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vasu Tanneru"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="1dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/last_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evthing thing will be good."
+            android:textSize="14sp"
+            android:textColor="#808080" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:30 AM"
+        android:textSize="12sp"
+        android:textColor="#808080" />
+
+</LinearLayout>
